@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05e510cd37fb1c4fab3604384d0580b, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  LevelNumber: 2
+  TilesData:
+    Layers:
+    - LayerIndex: 0
+      Tiles:
+      - TileType: 0
+        ViewportPosition: {x: 0.4148148, y: 0.42666668}
+        ObjectId: LevelCreator_bbaa5a2e-2ee0-41f8-a29e-f90dfc45bee9
+        OverlayedIds: []
+      - TileType: 4
+        ViewportPosition: {x: 0.77037036, y: 0.42666668}
+        ObjectId: LevelCreator_2072175c-4ab6-42ec-a9d5-1b9ae5f0b522
+        OverlayedIds: []
+    - LayerIndex: 0
+      Tiles:
+      - TileType: 1
+        ViewportPosition: {x: 0.5925926, y: 0.48}
+        ObjectId: LevelCreator_0535ce5f-6d35-47e1-baf0-c3a2ce746d21
+        OverlayedIds: []
+      - TileType: 1
+        ViewportPosition: {x: 0.47407407, y: 0.45333335}
+        ObjectId: LevelCreator_915829a6-52a8-4edc-98fd-b4f5f043bb64
+        OverlayedIds:
+        - LevelCreator_bbaa5a2e-2ee0-41f8-a29e-f90dfc45bee9
+      - TileType: 5
+        ViewportPosition: {x: 0.47407407, y: 0.50666666}
+        ObjectId: LevelCreator_9eaee410-faea-4f56-9b3d-c88ebe9b4504
+        OverlayedIds: []
+    - LayerIndex: 0
+      Tiles:
+      - TileType: 2
+        ViewportPosition: {x: 0.65185183, y: 0.50666666}
+        ObjectId: LevelCreator_c74b6d74-343e-4f7d-aeb6-07b3113a5f6a
+        OverlayedIds:
+        - LevelCreator_0535ce5f-6d35-47e1-baf0-c3a2ce746d21
+      - TileType: 0
+        ViewportPosition: {x: 0.53333336, y: 0.48}
+        ObjectId: LevelCreator_b2e0c784-cbd3-4235-9488-2b5a8df94506
+        OverlayedIds:
+        - LevelCreator_0535ce5f-6d35-47e1-baf0-c3a2ce746d21
+        - LevelCreator_915829a6-52a8-4edc-98fd-b4f5f043bb64
+        - LevelCreator_9eaee410-faea-4f56-9b3d-c88ebe9b4504
+      - TileType: 2
+        ViewportPosition: {x: 0.65185183, y: 0.45333335}
+        ObjectId: LevelCreator_8eebca34-fd33-454f-9dce-ba7d6ae82368
+        OverlayedIds:
+        - LevelCreator_0535ce5f-6d35-47e1-baf0-c3a2ce746d21
+      - TileType: 1
+        ViewportPosition: {x: 0.7111111, y: 0.4}
+        ObjectId: LevelCreator_be7be5e8-c25e-41d5-8e9c-198c573b4e7f
+        OverlayedIds:
+        - LevelCreator_2072175c-4ab6-42ec-a9d5-1b9ae5f0b522
+      - TileType: 2
+        ViewportPosition: {x: 0.65185183, y: 0.58666664}
+        ObjectId: LevelCreator_84fe286b-c9f8-4cdc-87c4-af049147d6c8
+        OverlayedIds: []
